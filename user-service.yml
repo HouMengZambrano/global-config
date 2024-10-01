@@ -1,1 +1,14 @@
-
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+    host: http://localhost
+    port: 8090
+    database: userdb
+    username: user
+    password: user
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+    
